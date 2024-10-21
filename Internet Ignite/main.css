@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-color:white; 
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0cd14a;
+    text-shadow: 2px 2px 3px rgba(2, 82, 54, 0.7); /* Text shadow */
+    cursor: pointer;
+}
+
+.search-container {
+    max-width: 400px; /* Limit the width of the search box */
+    color: #0cd14a;
+    border-color: #0cd14a;
+}
+
+.form-control {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btn {
+    color: #0cd14a;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: rgb(12, 12, 12);
+}
+
+.btn:hover {
+    border-color: #0cd14a;
+    background-color: #0cd14a;
+    transition: background-color 0.3s;
+    color:white;
+}
+/* FAQ Section */
+#faq {
+    background-color: #f0f8ff; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+
+
+.btn-link {
+    color: #007bff; /* Bootstrap primary color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text for questions */
+}
+
+.btn-link:hover {
+    text-decoration: underline; /* Underline on hover for interactivity */
+}
+/* How It Works Section */
+#how-it-works {
+    background-color: #f9f9f9; /* Light gray background for better contrast */
+    border-radius: 10px; /* Rounded corners */
+    padding: 30px; /* Padding for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+#how-it-works img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+}
